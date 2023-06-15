@@ -1,0 +1,7 @@
+#include<stdio.h>
+Int main()
+{
+Int a,n
+   Printf("Enter the interger:\n");
+   Scanf("%d",&a);
+   For(i==n; i<=n; i++)
