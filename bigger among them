@@ -1,0 +1,20 @@
+#include <stdio.h>
+int main()
+{
+    int sal, vin;
+    printf("Please Enter Two different values\n");
+    scanf("%d %d", &sal, &vin);
+    if(sal > vin)
+    {
+        printf("%d is Largest\n", sal);
+    }
+    else if (vin > sal)
+    {
+        printf("%d is Largest\n", vin);
+    }
+    else
+    {
+        printf("Both are Equal\n");
+    }
+return 0;
+}
